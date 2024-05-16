@@ -2,7 +2,7 @@ let peso = Number(prompt("Digite o seu peso:"))
 let altura = Number(prompt("Digite sua altura:"))
 function calculoImc(peso, altura){
     let imc 
-    imc = peso/(altura*2)
+    imc = peso/(altura*altura)
     if(imc < 16.9){
         alert('Muito abaixo do peso');
     } else if( imc <= 18.5){
