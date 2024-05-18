@@ -1,7 +1,7 @@
 let aluno1 = {
     nome: "Kimberly",
     idade: 19 ,
-    cidade:"sp"
+    cidade:"SP"
 }
 
 let{
